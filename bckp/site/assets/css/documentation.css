@@ -1,0 +1,59 @@
+.mg-docnav {
+    margin-top: 30px;
+    width: 100%;
+}
+.mg-docnav li {
+    border: none;
+    padding-left: 0;
+    font-size: 13px;
+    padding-bottom: 0;
+}
+.mg-docnav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+}
+.mg-doc-box {
+    border-bottom: 1px solid #ddd;
+}
+.mg-doc-box {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 50px;
+}
+.mg-doc-box a {
+    font-size: 12px;
+}
+.mg-filter-outer {
+    position: sticky;
+    top: 20px;
+}
+.nav-link {
+    color: #495057;
+}
+.mg-docnav-btn {
+    position: fixed;
+    bottom: 25px;
+    right: 7px;
+    display: inline-block;
+    width: auto;
+    z-index: 999;
+}
+.mg-docnav-btn button {
+    background: #8F6B6C;
+    padding: 15px;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+}
+.mg-docnav-btn button span {
+    background-color: #fff;
+}
+@media screen and (min-width: 768px){
+    .mg-filter-outer {
+        position: sticky !important;
+    }
+    div#mg-filter-sidenav {
+        min-height: 90vh;
+        width: 80% !important;
+    }
+}

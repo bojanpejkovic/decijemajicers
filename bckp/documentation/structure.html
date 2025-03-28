@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sidebars · Bootstrap v5.2</title>
+
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/sidebar.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/jquery.highlight.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/documentation.css" rel="stylesheet" type="text/css"/>
+
+        <script src="assets/js/jquery.min.js" type="text/javascript"></script>
+        <script src="assets/js/jquery.highlight.js" type="text/javascript"></script>
+        <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+
+    </head>
+    <body>
+        <aside class="sidebar">
+            <div class="toggle">
+                <a href="#" class="burger js-menu-toggle" data-toggle="collapse" data-target="#main-navbar">
+                    <span></span>
+                </a>
+            </div>
+            <div class="side-inner">
+                <div class="nav-menu">
+                    <ul>
+                        <li><a href="index.html"><span class="icon-home mr-3"></span>Preparation</a></li>
+                        <li class="active"><a href="structure.html"><span class="icon-search2 mr-3"></span>Structure</a></li>
+                        <li><a href="customizations.html"><span class="icon-notifications mr-3"></span>Customizations</a></li>
+                        <li><a href="components.html"><span class="icon-location-arrow mr-3"></span>Components</a></li>
+                        <li><a href="plugins.html"><span class="icon-sign-out mr-3"></span>Plugins</a></li>
+                        <li><a href="credits.html"><span class="icon-sign-out mr-3"></span>Credits</a></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <div class="mg-main-heading text-center">
+                    <h1><a class="text-white" href="index.html">DOCUMENTATION</a></h1>
+        </div>
+        <div class="mg-prepration-section pb-5" id="preparation">
+            <div class="container">
+                <div class="mg-prep-main mt-5">
+                    <div class="mg-prep-inner">
+                    <h3>Structure</h3>
+                    <p>This section have complete information of file structure:</p>
+                </div>
+                    <div class="mg-prep-inner">
+                        <h5>Package Structure</h5>
+                        <p>After extracting zip file, you'll see the following file structure:</p>
+                        <p class="mb-1"><code class="file"><i class="fa fa-folder-o" aria-hidden="true"></i> documentation</code> This folder contains documentation for this HTML template.</p>
+                        <p class="mb-1"><code class="file"><i class="fa fa-folder-o" aria-hidden="true"></i> site</code> This folder contains the HTML template.</p>
+                        <p class="mb-1"><code class="folder"><i class="fa fa-folder-o" aria-hidden="true"></i> site/assets</code> This folder contains sub-folders for CSS, JS, images, and fonts.</p>
+                        <p class="mb-1"><code class="folder"><i class="fa fa-folder-o" aria-hidden="true"></i> site/assets/css</code> All the CSS files are located in this folder.</p>
+                        <p class="mb-1"><code class="folder"><i class="fa fa-folder-o" aria-hidden="true"></i> site/assets/js</code> Libraries and common JS files are located in this folder.</p>
+                        <p class="mb-1"><code class="folder"><i class="fa fa-folder-o" aria-hidden="true"></i> site/assets/js/pages</code> JS files for specific pages like home page, product page, collections page and all others are located in this folder.</p>
+                        <p class="mb-1"><code class="file"><i class="fa fa-folder-o" aria-hidden="true"></i> site/assets/images/banners</code> Banner images for all three home pages are located in this folder.</p>
+                        <p class="mb-1"><code class="file"><i class="fa fa-folder-o" aria-hidden="true"></i> site/assets/images/blog</code> Blog images are located in this folder.</p>
+                        <p class="mb-1"><code class="file"><i class="fa fa-folder-o" aria-hidden="true"></i> site/assets/images</code> All other images are located in this folder.</p>
+                        <p class="mb-1"><code class="file"><i class="fa fa-folder-o" aria-hidden="true"></i> site/assets/fonts</code> All fonts are located in this folder.</p>
+                    </div>
+                    <div class="mg-prep-inner mt-5">
+                        <h5>HTML Structure</h5>
+                        <p>HTML page structure is built on the following principle:</p>
+                       <pre class="code code-highlighter" lang="html">
+&#x3C;html lang=&#x22;en&#x22;&#x3E;
+   &#x3C;head&#x3E;
+      &#x3C;meta charset=&#x22;UTF-8&#x22;&#x3E;
+      &#x3C;meta name=&#x22;viewport&#x22; content=&#x22;width=device-width, initial-scale=1.0&#x22;&#x3E;
+      &#x3C;!--Styles &#x26; Scripts--&#x3E;
+   &#x3C;/head&#x3E;
+   &#x3C;body&#x3E;
+      &#x3C;!--Page Header--&#x3E;
+      &#x3C;header&#x3E;
+         ...
+      &#x3C;/header&#x3E;
+
+      &#x3C;!--Page Sections--&#x3E;
+      &#x3C;section&#x3E;
+         ...
+      &#x3C;/section&#x3E;
+      
+      &#x3C;!--Page Footer--&#x3E;
+      &#x3C;footer&#x3E;
+         ...
+      &#x3C;/footer&#x3E;
+
+      &#x3C;!--JavaScripts--&#x3E;
+      &#x3C;script src=&#x22;assets/js/mg-menu.js&#x22;&#x3E;&#x3C;/script&#x3E;
+      &#x3C;script src=&#x22;assets/js/mg-common.js&#x22;&#x3E;&#x3C;/script&#x3E;
+   &#x3C;/body&#x3E;
+&#x3C;/html&#x3E;</pre>
+                    </div>
+                    <div class="mg-prep-inner mt-5">
+                        <h5>CSS Structure</h5>
+                        <ul>
+                            <li><code>site/assets/css/style.css</code> all style is written in this file.</li>
+                            <li><code>site/assets/css/responsive.css</code> all responsive style is written in this file.</li>
+                            <li><code>site/assets/css/mg-menu.css</code> all menu style is written in this file.</li>
+                            <li><code>site/assets/css/mg-animations.css</code> all animation style is written in this file.</li>
+                        </ul>
+                    </div>
+                    <div class="mg-prep-inner mt-5">
+                        <h5>JS Structure</h5>
+                        <ul>
+                            <li>Script for the menu is written in <code>site/assets/js/mg-menu.js</code> file.</li>
+                            <li>Common scripts are written in <code>site/assets/js/mg-common.js</code> file.</li>
+                            <li>Script for specific page like product page is written in <code>site/assets/js/pages/mg-product.js</code> file.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script>
+            $(document).ready(function () {
+                $(".code-highlighter").highlight({source: 0, zebra: 1, indent: 'space', list: 'ol'});
+            });
+        </script>
+    </body>
+</html>

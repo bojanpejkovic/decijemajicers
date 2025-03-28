@@ -1,0 +1,12 @@
+- kad nesto ima 4 u redu, a ima 5 ,6,7 ukupno, postavi da bude na sredini poslednji red
+- DODAJ U KORPU da ne bude crno (blago zeleno? i hover jace)
+- na mob da ima korpica jer u suprotnom nema nista od kupovine
+- nasi brendovi naslov
+- glavni slajder da bude visine ekrana, i da ima posebne slike za mob
+- glavni font sa nasim slovima svim
+
+
+php:
+- napravi ovo <!--MG Breadcrumb-->
+- napravi korpu i fje korpe
+- napravi fast view product
